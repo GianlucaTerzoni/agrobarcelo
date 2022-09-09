@@ -1,0 +1,65 @@
+.maquinas {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(../assets/portada-roja.jpg)no-repeat center center/cover; 
+    
+}
+
+.maquinas::before {
+    content: '';
+    position: absolute;
+    background: url(../assets/_mg_6778.jpg)no-repeat left;
+    background-size: 800px;
+    filter:brightness(120%) saturate(130%);
+    background-position: 4rem;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+h2 span { 
+    font-size: 40px;
+    color: #BF1717;
+    
+}
+
+.maquinas .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    width: 50%;
+    background-color: transparent
+}
+
+.maquinas .content p {
+    margin: 1rem 0;
+    font-size: 18px;
+}
+
+.maquinas button {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.maquinas button:hover{
+    background-color: white;
+    color: red;
+}
+
+@media screen and (max-width: 940px) {
+
+    .maquina .content {
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+        
+    }
+    
+}
