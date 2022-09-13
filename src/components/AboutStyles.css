@@ -10,7 +10,7 @@
     content: '';
     position: absolute;
     background: url(../assets/_mg_6778.jpg)no-repeat left ;
-    background-size: 800px;
+    background-size: 700px;
     filter:brightness(120%) saturate(130%);
     background-position: 4rem;
     height: 100%;
