@@ -10,15 +10,16 @@ import { Login } from "./components/Login";
 function App() {
   return (
     <>
+      {/* 
+      <Login /> 
       {/* <Navbar />
       <Hero />
       <About />
       <Concesionario />
       <Maquinas />
+      <Footer /> 
       <Contact />
-      <Footer />
-      <Login /> */}
-
+      */}
     </>
 
   )
