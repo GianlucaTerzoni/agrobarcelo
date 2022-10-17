@@ -48,7 +48,11 @@
   background-color: rgba(0, 0, 0, .6);
   margin: 0.1rem;
   text-align: center;
-
+  transition: 0.3s;
+  cursor: pointer;
+}
+.navbar li:hover {
+  background-color: rgb(248, 7, 7);
 }
 
 .navbar .icon {
