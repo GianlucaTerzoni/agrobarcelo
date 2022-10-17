@@ -8,7 +8,7 @@ const Maquinas = () => {
             <div className="content">
                  
                 <div>
-                    <button>VER MÁQUINAS</button>
+                    
                 </div>
             </div>
         </div>
