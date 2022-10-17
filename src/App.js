@@ -6,20 +6,20 @@ import { Concesionario } from './components/Concesionario'
 import { Footer } from "./components/Footer";
 import Maquinas from "./components/Maquinas";
 import Contact from "./components/Contact";
-import { Login } from "./components/Login";
+
 function App() {
   return (
     <>
-      {/* 
-      <Login /> 
-      {/* <Navbar />
+       
+
+      <Navbar />
       <Hero />
       <About />
       <Concesionario />
       <Maquinas />
-      <Footer /> 
       <Contact />
-      */}
+      <Footer /> 
+      
     </>
 
   )
