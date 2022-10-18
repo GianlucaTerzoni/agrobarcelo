@@ -16,7 +16,10 @@ function App() {
 
       <Navbar />
       <Hero />
+      <About />
       <Concesionario />
+      <Maquinas  />
+      <Contact />
       <Footer />
       <Maps />
       
