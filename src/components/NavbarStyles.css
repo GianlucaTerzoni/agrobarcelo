@@ -28,8 +28,8 @@
 
 .hamburger {
   display: none;
-  padding: 1rem;
-  
+  padding: .5rem;
+  margin-top: -165px;
 }
 
 .navbar .nav-menu {

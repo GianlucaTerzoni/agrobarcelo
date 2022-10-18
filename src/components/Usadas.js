@@ -11,7 +11,7 @@ const Usadas = () => {
     <div className='nuevas'>
     <div className='container'>
             <div className='content'>
-
+            
                 <div>
                     <h3>Maquina usada número 1:</h3>
                     <img src={image1} alt='img not found' />

@@ -18,9 +18,9 @@ function App() {
       <Hero />
       <About />
       <Concesionario />
-      <Maquinas  />
+      <Maquinas   />
       <Contact />
-      <Footer />
+
       <Maps />
       
        {/* <About />
