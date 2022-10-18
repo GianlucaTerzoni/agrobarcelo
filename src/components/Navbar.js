@@ -12,15 +12,15 @@ const Navbar = () => {
     <div name="top" className="navbar">
       <div className="container">
         <div className="logo">
-
+          <SiDatabricks className="icon" />
+          <h1>Agro Barcelo</h1>
         </div>
-
         <ul className={nav ? "nav-menu active" : "nav-menu"}>
           <li><Link to='/'>Inicio</Link></li>
           <li><Link to='/maquinas'>Maquinas</Link></li>
           <li><Link to='/about'>Nosotros</Link></li>
           <li><Link to='/contact'>Contacto</Link></li>
-
+          <div className="hamburger" onClick={handleNav}> {!nav ? <FaBars className="icon" /> : <FaTimes className="icon" />} </div>
         </ul>
         <div className="hamburger" onClick={handleNav}>
           {!nav ? <FaBars className="icon" /> : <FaTimes className="icon" />}
